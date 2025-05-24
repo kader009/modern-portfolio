@@ -7,10 +7,9 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     index: 0,
     title: "Edunest",
     href: "/projects",
-    tags: ["Nextjs", "Tailwindcss", "Monaco Editor", "Vercel"],
+    tags: ["Nextjs", "Tailwindcss", "Reactjs", "Vercel"],
     image: {
-      LIGHT: "/images/projects/jsontreeLight.webp",
-      DARK: "/images/projects/jsontreeDark.webp",
+      LIGHT: "/images/projects/edunest.webp",
     },
   },
   {
@@ -20,25 +19,24 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     tags: [
       "Reactjs",
       "Tailwindcss",
-      "Scss",
       "Vite",
       "React-router-dom",
-      "Redux",
+      "Firebase",
       "Vercel",
     ],
     image: {
-      LIGHT: "/images/projects/manyGamesLight.webp",
-      DARK: "/images/projects/manyGamesDark.webp",
+      LIGHT: "/images/projects/foodlane.webp",
+      // DARK: "/images/projects/manyGamesDark.webp",
     },
   },
   {
     index: 2,
     title: "TaskHub",
     href: "/projects",
-    tags: ["Reactjs", "Vite", "Tailwindcss", "Vercel", "Zustand", "React DND"],
+    tags: ["Reactjs", "Vite", "Tailwindcss", "Vercel", "AntD"],
     image: {
-      LIGHT: "/images/projects/kanbanLight.webp",
-      DARK: "/images/projects/kanbanDark.webp",
+      LIGHT: "/images/projects/taskhub.webp",
+      // DARK: "/images/projects/kanbanDark.webp",
     },
   },
 ];
@@ -47,10 +45,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   {
     name: "Edunest",
     favicon: "/images/projects/logos/jsontree.ico",
-    imageUrl: [
-      "/images/projects/jsontreeLight.webp",
-      "/images/projects/jsontreeDark.webp",
-    ],
+    imageUrl: ["/images/projects/edunest.webp"],
     description:
       "Built a role-based study platform (Admin, Tutor, Student) using Next.js, TailwindCSS, and Redux. Included JWT auth, study materials, dashboard, Shadcn UI.",
     sourceCodeHref: "https://github.com/kader009/study-platform-frontend",
@@ -60,9 +55,9 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     name: "FoodLane",
     favicon: "/images/projects/logos/kanban.ico",
     imageUrl: [
-      "/images/projects/kanbanLight.webp",
-      "/images/projects/kanbanDark.webp",
-      "/images/projects/kanbanCardLight.webp",
+      "/images/projects/foodlane.webp",
+      // "/images/projects/kanbanDark.webp",
+      // "/images/projects/kanbanCardLight.webp",
     ],
     description:
       "Developed a full-featured restaurant web app where users can browse food items, add them to cart, and place orders with online payment. Implemented authentication, search and filtering, cart system, and secure checkout. Built using React.js, TailwindCSS, custom authentication, and integrated a payment gateway.",
@@ -72,13 +67,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   {
     name: "TaskHub",
     favicon: "/images/projects/logos/manygames.ico",
-    imageUrl: [
-      "/images/projects/manyGamesDark.webp",
-      "/images/projects/manyGamesLight.webp",
-      "/images/projects/manyGames2048.webp",
-      "/images/projects/manyGamesPuzzle.webp",
-      "/images/projects/manyGamesWordle.webp",
-    ],
+    imageUrl: ["/images/projects/taskhub.webp"],
     description:
       "Task management websit for creating task for ownself and use when ever need.",
     sourceCodeHref: "https://github.com/kader009/task-manage",
@@ -88,21 +77,21 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     name: "My portfolio",
     favicon: "/favicon.ico",
     imageUrl: [
-      "/images/projects/portfolioDark.webp",
-      "/images/projects/portfolioLight.webp",
+      "/images/projects/Portfolio.webp",
+      // "/images/projects/portfolioLight.webp",
     ],
     description:
       "My personal portfolio website made using Nextjs, tailwindcss and framer motion.",
-    sourceCodeHref: "https://github.com/kader009/Modern-Portfolio",
+    sourceCodeHref: "https://github.com/kader009/modern-portfolio",
     liveWebsiteHref: siteMetadata.siteUrl,
   },
   {
     name: "Dashboard",
     favicon: "/images/projects/logos/covidtracker.ico",
     imageUrl: [
-      "/images/projects/covidTracker.webp",
-      "/images/projects/covidTrackerMap.webp",
-      "/images/projects/covidTrackerTable.webp",
+      "/images/projects/shadcn.webp",
+      // "/images/projects/covidTrackerMap.webp",
+      // "/images/projects/covidTrackerTable.webp",
     ],
     description:
       "Creating a awesome dashboard with nextjs, typescript and shadcnUI",
