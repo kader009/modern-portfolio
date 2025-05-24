@@ -5,7 +5,7 @@ import { siteMetadata } from "@/data/siteMetaData.mjs";
 export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   {
     index: 0,
-    title: "Json Tree",
+    title: "Edunest",
     href: "/projects",
     tags: ["Nextjs", "Tailwindcss", "Monaco Editor", "Vercel"],
     image: {
@@ -15,7 +15,7 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   },
   {
     index: 1,
-    title: "Many Games",
+    title: "FoodLane",
     href: "/projects",
     tags: [
       "Reactjs",
@@ -33,7 +33,7 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   },
   {
     index: 2,
-    title: "Kanban",
+    title: "TaskHub",
     href: "/projects",
     tags: ["Reactjs", "Vite", "Tailwindcss", "Vercel", "Zustand", "React DND"],
     image: {
@@ -45,19 +45,19 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
 
 export const PROJECTS_CARD: ProjectCardProps[] = [
   {
-    name: "Json tree",
+    name: "Edunest",
     favicon: "/images/projects/logos/jsontree.ico",
     imageUrl: [
       "/images/projects/jsontreeLight.webp",
       "/images/projects/jsontreeDark.webp",
     ],
     description:
-      "Visualize JSON data format in form of a tree or graph. Application is made using Nextjs, Tailwindcss and Monaco Editor. Design image can be downloaded from this app.",
-    sourceCodeHref: "https://github.com/BUMBAIYA/jsontree",
-    liveWebsiteHref: "https://jsontree.vercel.app",
+      "Built a role-based study platform (Admin, Tutor, Student) using Next.js, TailwindCSS, and Redux. Included JWT auth, study materials, dashboard, Shadcn UI.",
+    sourceCodeHref: "https://github.com/kader009/study-platform-frontend",
+    liveWebsiteHref: "https://study-platform-frontend-azure.vercel.app/",
   },
   {
-    name: "Kanban app",
+    name: "FoodLane",
     favicon: "/images/projects/logos/kanban.ico",
     imageUrl: [
       "/images/projects/kanbanLight.webp",
@@ -65,12 +65,12 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
       "/images/projects/kanbanCardLight.webp",
     ],
     description:
-      "Keep track of projects and tasks in different categories. Drag and drop card from tables. Assign user and priority to task and many more features. This app is made using Reactjs, Typescript, Tailwindcss and React-beautiful-dnd library.",
-    sourceCodeHref: "https://github.com/BUMBAIYA/kanban",
-    liveWebsiteHref: "https://kannban-board.vercel.app",
+      "Developed a full-featured restaurant web app where users can browse food items, add them to cart, and place orders with online payment. Implemented authentication, search and filtering, cart system, and secure checkout. Built using React.js, TailwindCSS, custom authentication, and integrated a payment gateway.",
+    sourceCodeHref: "https://github.com/kader009/FoodLane",
+    liveWebsiteHref: "https://food-lane-zeta.vercel.app/",
   },
   {
-    name: "Many Games",
+    name: "TaskHub",
     favicon: "/images/projects/logos/manygames.ico",
     imageUrl: [
       "/images/projects/manyGamesDark.webp",
@@ -80,9 +80,9 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
       "/images/projects/manyGamesWordle.webp",
     ],
     description:
-      "Many short and fun games using Reactjs, Typescript and Tailwindcss with collaboration with other developers",
-    sourceCodeHref: "https://github.com/BUMBAIYA/ManyGames",
-    liveWebsiteHref: "https://manygames.vercel.app",
+      "Task management websit for creating task for ownself and use when ever need.",
+    sourceCodeHref: "https://github.com/kader009/task-manage",
+    liveWebsiteHref: "https://task-manage-ebon.vercel.app/",
   },
   {
     name: "My portfolio",
@@ -93,11 +93,11 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     ],
     description:
       "My personal portfolio website made using Nextjs, tailwindcss and framer motion.",
-    sourceCodeHref: "https://github.com/BUMBAIYA/amitchauhan-v2",
+    sourceCodeHref: "https://github.com/kader009/Modern-Portfolio",
     liveWebsiteHref: siteMetadata.siteUrl,
   },
   {
-    name: "Covid Tracker",
+    name: "Dashboard",
     favicon: "/images/projects/logos/covidtracker.ico",
     imageUrl: [
       "/images/projects/covidTracker.webp",
@@ -105,21 +105,8 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
       "/images/projects/covidTrackerTable.webp",
     ],
     description:
-      "Get latest covid related stats in a table where user can filter using country and cases. It also has a map which show every countries data for quick view. It uses an open source api (disease.sh). Made using Reactjs, Javascript and MUI",
-    sourceCodeHref: "https://github.com/BUMBAIYA/CovidTracker",
-    liveWebsiteHref: "https://bumbaiya.github.io/CovidTracker",
-  },
-  {
-    name: "Stock predictor",
-    favicon: "/images/projects/logos/stockpredictor.ico",
-    imageUrl: [
-      "/images/projects/stockPredictor.webp",
-      "/images/projects/stockPredictorCandleChart.webp",
-      "/images/projects/stockPredictorCompareChart.webp",
-      "/images/projects/stockPredictorLineChart.webp",
-    ],
-    description:
-      "Get prediction of opening and closing price of stocks price. Frontend is made using Reactjs and backend is made using Flask and Machine learning model are trained using Tensorflow",
-    sourceCodeHref: "https://github.com/Rohrschachh/Stock-Market-Predictor",
+      "Creating a awesome dashboard with nextjs, typescript and shadcnUI",
+    sourceCodeHref: "https://github.com/kader009/shadcn-dashboard",
+    liveWebsiteHref: "https://shadcn-dashboard-master-kappa.vercel.app/",
   },
 ];
