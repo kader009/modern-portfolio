@@ -7,7 +7,7 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     index: 0,
     title: "Edunest",
     href: "/projects",
-    tags: ["Nextjs", "Tailwindcss", "Reactjs", "Vercel"],
+    tags: ["Nextjs", "Tailwindcss", "Reactjs", "Vercel", "Typescript"],
     image: {
       LIGHT: "/images/projects/edunest.webp",
     },
