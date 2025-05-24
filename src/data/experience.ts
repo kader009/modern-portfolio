@@ -2,35 +2,35 @@ import { type ExperienceShowcaseListItemProps } from "@/components/experience/ex
 
 export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
   {
-    title: "Software Developer",
+    title: "Nextjs Developer",
     organisation: {
-      name: "Skima",
-      href: "https://skima.ai/",
+      name: "Edunest (study platform)",
+      href: "https://study-platform-frontend-azure.vercel.app/",
     },
-    date: "Oct 2023 - Present",
-    location: "Mumbai",
-    description: "Reactjs and Nextjs app development",
+    date: "April - 2025",
+    location: "Dhaka",
+    description: " Create Education learning platform with Reactjs, Nextjs",
   },
   {
-    title: "Engineering Trainee",
+    title: "React Developer",
     organisation: {
-      name: "Hexaware",
-      href: "https://hexaware.com/",
+      name: "FoodLane (Restaurant website)",
+      href: "https://food-lane-zeta.vercel.app/",
     },
-    date: "July 2023 - Sep 2023",
+    date: "August - 2024",
     location: "Remote",
     description:
-      "Learned to work we monorepo and got to learn application architecture, scalling and build tooling to improve CI/CD of micro services.",
+      "Learned to work work with Rest Api and integrate Payment system.",
   },
   {
-    title: "Frontend Developer Intern",
+    title: "Frontend Developer",
     organisation: {
-      name: "Master Infotech",
-      href: "https://masterinfotech.com/",
+      name: "TaskHub (Task Management site)",
+      href: "https://task-manage-ebon.vercel.app/",
     },
-    date: "Winter - 2022",
+    date: "July - 2024",
     location: "Remote",
     description:
-      "Worked on a team responsible for developing new features and updating old codebases to latest technologies. Learned alot about web development and CI/CD development cycle.",
+      "Task management websit for creating task for ownself and use when ever need.",
   },
 ];
