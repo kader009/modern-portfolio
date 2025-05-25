@@ -10,6 +10,15 @@ This portfolio is crafted using [Next.js](https://nextjs.org/)
 - [Framer motion](https://www.framer.com/motion/): A React animation library that brings motion to your user interfaces.
 - [Nodemailer](https://nodemailer.com/): A Node.js library facilitating easy email integration with features like attachment handling, HTML content, and support for various email services.
 
+## Features
+
+- Home, About, Projects, Experience, Education, Contact pages
+- Dark Mode toggle
+- Contact form integration with Nodemailer
+- Smooth animations using Framer Motion
+- SEO optimized (sitemap.xml, robots.txt)
+
+
 ## Setup Nodemailer
 
 ### Create Nodemailer User and Password
@@ -22,7 +31,7 @@ This portfolio is crafted using [Next.js](https://nextjs.org/)
 6. Under `2-Step Verification` go to `App passwords`
 7. Create an app (e.g., portfolio-nodemailer), and copy the generated password securely. Use it as the value for the `NODEMAILER_PASS` variable and your email as the value for `NODEMAILER_USER` variable in `.env` file. [Note: Passwords are not visible once closed; if forgotten, delete the old app and create a new one.]
 
-### Seo best practices
+### Seo Best Practices
 
 1. The project automatically generates sitemap.xml and robots.txt files within the public folder by leveraging the project's file structure. This process is initiated through the scripts located at src/scripts/generateSitemap.mjs, executed either after the project is built or by running the command `pnpm/npm/yarn sitemap`.
 
@@ -30,7 +39,7 @@ This portfolio is crafted using [Next.js](https://nextjs.org/)
 
 3. Update google site verification code with your own inside `/src/data/siteMetaData.mjs`. Can be created for free using your google email id at <https://search.google.com/search-console/welcome>
 
-## Development setup (If anyone want to use)
+## Development Setup (If anyone wants to use)
 
 ### Step 1: Clone the repository
 ```bash 
