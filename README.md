@@ -1,4 +1,4 @@
-# Modern Portfolio
+# Modern Portfolio - V2
 
 This portfolio is crafted using [Next.js](https://nextjs.org/)
 
@@ -9,12 +9,6 @@ This portfolio is crafted using [Next.js](https://nextjs.org/)
 - [TypeScript](https://www.typescriptlang.org): A typed superset of JavaScript that provides enhanced tooling and developer productivity.
 - [Framer motion](https://www.framer.com/motion/): A React animation library that brings motion to your user interfaces.
 - [Nodemailer](https://nodemailer.com/): A Node.js library facilitating easy email integration with features like attachment handling, HTML content, and support for various email services.
-
-## Important Note
-
-1. **Do not push your Nodemailer pass on Github** as it can give access to your google email. Use `.env` file
-2. Use [Nextjs api routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) for nodemailer transporters and send mail function as they only run on server and cannot expose your google app variables to client
-3. Update google site verification code with your own inside `/src/data/siteMetaData.mjs`. Can be created for free using your google email id at <https://search.google.com/search-console/welcome>
 
 ## Setup Nodemailer
 
@@ -30,11 +24,13 @@ This portfolio is crafted using [Next.js](https://nextjs.org/)
 
 ### Seo best practices
 
-1. The project automatically generates sitemap.xml and robots.txt files within the public folder by leveraging the project's file structure. This process is initiated through the scripts located at src/scripts/generateSitemap.mjs, executed either after the project is built or by running the command `pnpm sitemap`.
+1. The project automatically generates sitemap.xml and robots.txt files within the public folder by leveraging the project's file structure. This process is initiated through the scripts located at src/scripts/generateSitemap.mjs, executed either after the project is built or by running the command `pnpm/npm/yarn sitemap`.
+
 2. It's important to note that [dynamic routes](https://nextjs.org/docs/pages/building-your-application/routing/dynamic-routes), identified by file or folder names in square brackets (e.g., [segmentName], [id], or [slug]), are excluded from the sitemap.xml.
+
 3. Update google site verification code with your own inside `/src/data/siteMetaData.mjs`. Can be created for free using your google email id at <https://search.google.com/search-console/welcome>
 
-## Development setup
+## Development setup (If anyone want to use)
 
 ### Step 1: Clone the repository
 ```bash 
