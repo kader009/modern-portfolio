@@ -7,7 +7,7 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     index: 0,
     title: "Edunest",
     href: "/projects",
-    tags: ["Nextjs", "Tailwindcss", "Reactjs", "Vercel", "Typescript"],
+    tags: ["Nextjs", "Tailwindcss", "Reactjs", "Redux tookit", "Typescript"],
     image: {
       LIGHT: "/images/projects/edunest.webp",
     },
@@ -19,10 +19,10 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     tags: [
       "Reactjs",
       "Tailwindcss",
-      "Vite",
+      "Javascript",
       "React-router-dom",
       "Firebase",
-      "Vercel",
+      "Mern",
     ],
     image: {
       LIGHT: "/images/projects/foodlane.webp",
@@ -33,7 +33,7 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     index: 2,
     title: "TaskHub",
     href: "/projects",
-    tags: ["Reactjs", "Vite", "Tailwindcss", "Vercel", "AntD"],
+    tags: ["Reactjs", "Tailwindcss", "Mern", "AntD"],
     image: {
       LIGHT: "/images/projects/taskhub.webp",
       DARK: "/images/projects/taskhub.webp",
