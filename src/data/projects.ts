@@ -26,7 +26,7 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     ],
     image: {
       LIGHT: "/images/projects/foodlane.webp",
-      // DARK: "/images/projects/manyGamesDark.webp",
+      DARK: "/images/projects/foodlane.webp",
     },
   },
   {
@@ -36,7 +36,7 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     tags: ["Reactjs", "Vite", "Tailwindcss", "Vercel", "AntD"],
     image: {
       LIGHT: "/images/projects/taskhub.webp",
-      // DARK: "/images/projects/kanbanDark.webp",
+      DARK: "/images/projects/taskhub.webp",
     },
   },
 ];
@@ -54,11 +54,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   {
     name: "FoodLane",
     favicon: "/images/projects/logos/kanban.ico",
-    imageUrl: [
-      "/images/projects/foodlane.webp",
-      // "/images/projects/kanbanDark.webp",
-      // "/images/projects/kanbanCardLight.webp",
-    ],
+    imageUrl: ["/images/projects/foodlane.webp"],
     description:
       "Developed a full-featured restaurant web app where users can browse food items, add them to cart, and place orders with online payment. Implemented authentication, search and filtering, cart system, and secure checkout. Built using React.js, TailwindCSS, custom authentication, and integrated a payment gateway.",
     sourceCodeHref: "https://github.com/kader009/FoodLane",
@@ -69,17 +65,14 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     favicon: "/images/projects/logos/manygames.ico",
     imageUrl: ["/images/projects/taskhub.webp"],
     description:
-      "Task management websit for creating task for ownself and use when ever need.",
+      "Task management website for creating task for your ownself and use when you need update delete and much more.",
     sourceCodeHref: "https://github.com/kader009/task-manage",
     liveWebsiteHref: "https://task-manage-ebon.vercel.app/",
   },
   {
     name: "My portfolio",
     favicon: "/favicon.ico",
-    imageUrl: [
-      "/images/projects/portfolio.webp",
-      // "/images/projects/portfolioLight.webp",
-    ],
+    imageUrl: ["/images/projects/portfolio.webp"],
     description:
       "My personal portfolio website made using Nextjs, tailwindcss and framer motion.",
     sourceCodeHref: "https://github.com/kader009/modern-portfolio",
@@ -88,13 +81,9 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   {
     name: "Dashboard",
     favicon: "/images/projects/logos/covidtracker.ico",
-    imageUrl: [
-      "/images/projects/shadcn.webp",
-      // "/images/projects/covidTrackerMap.webp",
-      // "/images/projects/covidTrackerTable.webp",
-    ],
+    imageUrl: ["/images/projects/shadcn.webp"],
     description:
-      "Creating a awesome dashboard with nextjs, typescript and shadcnUI",
+      "Creating a awesome dashboard feature with Nextjs, Typescript, Tailwindcss and shadcnUI also use SSR",
     sourceCodeHref: "https://github.com/kader009/shadcn-dashboard",
     liveWebsiteHref: "https://shadcn-dashboard-master-kappa.vercel.app/",
   },
