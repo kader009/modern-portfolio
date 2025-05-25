@@ -77,7 +77,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     name: "My portfolio",
     favicon: "/favicon.ico",
     imageUrl: [
-      "/images/projects/Portfolio.webp",
+      "/images/projects/portfolio.webp",
       // "/images/projects/portfolioLight.webp",
     ],
     description:
