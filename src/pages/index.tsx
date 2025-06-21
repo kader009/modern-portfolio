@@ -18,7 +18,7 @@ export default function Home() {
         canonical={siteMetadata.siteUrl}
         openGraph={{
           url: siteMetadata.siteUrl,
-          title: "Abdul Kader - Software Developer",
+          title: "Abdul Kader - Front End Developer",
           description:
             "Dive into the world of web development with Abdul Kader.Showcasing cutting-edge projects and a commitment to crafting exceptional user interfaces.",
           images: [
