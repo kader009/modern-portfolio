@@ -11,7 +11,7 @@ export default function About() {
     <>
       <NextSeo
         title="About Abdul Kader | Front End Developer"
-        description="Learn more about Abdul Kader, a dedicated Software Developer with 2 years of experience. Discover the journey, skills, and passion that drive me to create innovative and user-friendly web solutions."
+        description="Learn more about Abdul Kader, a dedicated Front End Developer. Discover the journey, skills, and passion that drive me to create innovative and user-friendly web solutions."
         canonical={`${siteMetadata.siteUrl}/about`}
         openGraph={{
           url: `${siteMetadata.siteUrl}/about`,

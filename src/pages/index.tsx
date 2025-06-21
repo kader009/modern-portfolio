@@ -20,7 +20,7 @@ export default function Home() {
           url: siteMetadata.siteUrl,
           title: "Abdul Kader - Software Developer",
           description:
-            "Dive into the world of web development with Abdul Kader. Discover a Software Developer with 2 years of expertise, showcasing cutting-edge projects and a commitment to crafting exceptional user interfaces.",
+            "Dive into the world of web development with Abdul Kader.Showcasing cutting-edge projects and a commitment to crafting exceptional user interfaces.",
           images: [
             {
               url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
