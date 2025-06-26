@@ -32,6 +32,6 @@ export const EDUCATION: ExperienceShowcaseListItemProps[] = [
     date: "2008 - 2013",
     location: "Notun Bazar, Birampur",
     description:
-      "Learned good values, dedication and disciplne. Played district Cricket for 5 years.",
+      "Learned good values, dedication and disciplne. Played Cricket as a hobby.",
   },
 ];
