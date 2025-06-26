@@ -33,4 +33,15 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
     description:
       "Task management websit for creating task for ownself and use when ever need.",
   },
+  {
+    title: "Next.js Developer",
+    organisation: {
+      name: "TrendWave (Ecommerce site)",
+      href: "https://trendwave-frontend.vercel.app/",
+    },
+    date: "June - 2025",
+    location: "Remote",
+    description:
+      "TrendWave is a modern e-commerce platform to explore trending products, search easily, and view key details like price and category.",
+  },
 ];
