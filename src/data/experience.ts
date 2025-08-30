@@ -2,6 +2,17 @@ import { type ExperienceShowcaseListItemProps } from "@/components/experience/ex
 
 export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
   {
+    title: "React Developer (Intern)",
+    organisation: {
+      name: "Spiderdevs",
+      href: "https://spider-themes.net/",
+    },
+    date: "July 2025 - Present",
+    location: "Bramanbaria",
+    description:
+      "During my internship, I converted HTML templates to Next.js and built custom Gutenberg blocks for WordPress, gaining hands-on experience with modern front-end frameworks and CMS integration.",
+  },
+  {
     title: "Nextjs Developer",
     organisation: {
       name: "Edunest (study platform)",
@@ -9,7 +20,7 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
     },
     date: "April - 2025",
     location: "Dhaka",
-    description: " Create Education learning platform with Reactjs, Nextjs",
+    description: "Create Education learning platform with Reactjs, Nextjs",
   },
   {
     title: "React Developer",
