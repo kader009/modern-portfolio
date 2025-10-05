@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import FadeUp from "@/animation/fade-up";
+import Link from "next/link";
 
 export default function LandingHero() {
   const [scrollY, setScrollY] = useState(0);
@@ -54,6 +55,11 @@ export default function LandingHero() {
                 <span className="font-semibold text-accent">HTML</span> and{" "}
                 <span className="font-semibold text-accent">CSS</span>
               </div>
+              <button className="pointer-events-auto mt-8 rounded-lg bg-accent px-5 py-3 font-semibold capitalize text-white transition-all hover:brightness-90">
+                <Link href="/resume.pdf" download>
+                  download resume
+                </Link>
+              </button>
             </FadeUp>
           </AnimatePresence>
         </div>
