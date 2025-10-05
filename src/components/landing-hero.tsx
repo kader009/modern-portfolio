@@ -52,6 +52,7 @@ export default function LandingHero() {
                 <span className="font-semibold text-accent">NextJS</span>, and
                 work with{" "}
                 <span className="font-semibold text-accent">JavaScript</span>,{" "}
+                <span className="font-semibold text-accent">TypeScript</span>,{" "}
                 <span className="font-semibold text-accent">HTML</span> and{" "}
                 <span className="font-semibold text-accent">CSS</span>
               </div>
