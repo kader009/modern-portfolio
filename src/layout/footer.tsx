@@ -1,6 +1,7 @@
 import ContactButton from "@/components/contact-form/contact-button";
 import { GithubIcon, LinkedinIcon } from "@/components/icons";
 import { siteMetadata } from "@/data/siteMetaData.mjs";
+import Link from "next/link";
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -12,7 +13,7 @@ export default function Footer() {
             Get in touch
           </span>
         </div>
-        <a
+        <Link
           href={`mailto:${siteMetadata.email}`}
           target="_blank"
           className="mb-6 cursor-pointer text-center text-2xl font-bold underline sm:text-4xl lg:text-6xl"
@@ -20,7 +21,7 @@ export default function Footer() {
           <span>kadermollarasel000@</span>
           <br />
           <span>gmail.com</span>
-        </a>
+        </Link>
         <div className="flex justify-center">
           <ContactButton />
         </div>
@@ -28,23 +29,23 @@ export default function Footer() {
       <div className="flex w-full flex-col items-center justify-between gap-8 text-center  md:flex-row md:justify-between lg:mx-auto lg:max-w-7xl">
         <span className="text-foreground">©{year} Abdul Kader</span>
         <div className="flex gap-8">
-          <a
+          <Link
             href={siteMetadata.github}
             target="_blank"
             className="h-6 w-6"
             aria-label="link to Github"
           >
             <GithubIcon className="text-accent transition-colors duration-150 hover:text-accent-foreground" />
-          </a>
+          </Link>
           {/* Twitter icon removed as XIcon is not available */}
-          <a
+          <Link
             href={siteMetadata.linkedin}
             target="_blank"
             className="h-6 w-6"
             aria-label="link to Linkedin"
           >
             <LinkedinIcon className="text-accent transition-colors duration-150 hover:text-accent-foreground" />
-          </a>
+          </Link>
         </div>
       </div>
     </footer>
