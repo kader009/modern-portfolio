@@ -87,4 +87,13 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     sourceCodeHref: "https://github.com/kader009/shadcn-dashboard",
     liveWebsiteHref: "https://shadcn-dashboard-master-kappa.vercel.app/",
   },
+  {
+    name: "TrendWave",
+    favicon: "/images/projects/logos/covidtracker.ico",
+    imageUrl: ["/images/projects/shadcn.webp"],
+    description:
+      "Creating a awesome dashboard feature with Nextjs, Typescript, Tailwindcss and shadcnUI also use SSR",
+    sourceCodeHref: "https://github.com/kader009/trendwave-frontend",
+    liveWebsiteHref: "https://trendwave-frontend.vercel.app/",
+  },
 ];
