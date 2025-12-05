@@ -10,6 +10,7 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     tags: ["Nextjs", "Tailwindcss", "Reactjs", "Redux tookit", "Typescript"],
     image: {
       LIGHT: "/images/projects/edunest.webp",
+      DARK: "/images/projects/edunest.webp",
     },
   },
   {
