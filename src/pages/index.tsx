@@ -13,18 +13,18 @@ export default function Home() {
   return (
     <>
       <NextSeo
-        title="Abdul Kader | Front End Developer"
+        title="Abdul Kader Molla | Front End Developer"
         description="Explore the professional portfolio of Abdul Kader, a skilled Front End Developer hands-on experience. Discover innovative projects, expertise in modern web technologies, and a passion for creating seamless user experiences."
         canonical={siteMetadata.siteUrl}
         openGraph={{
           url: siteMetadata.siteUrl,
-          title: "Abdul Kader - Front End Developer",
+          title: "Abdul Kader Molla - Front End Developer",
           description:
-            "Dive into the world of web development with Abdul Kader.Showcasing cutting-edge projects and a commitment to crafting exceptional user interfaces.",
+            "Dive into the world of web development with Abdul Kader Molla. Showcasing cutting-edge projects and a commitment to crafting exceptional user interfaces.",
           images: [
             {
               url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
-              alt: "Abdul Kader - Portfolio Image",
+              alt: "Abdul Kader Molla - Portfolio Image",
             },
           ],
           siteName: siteMetadata.siteName,

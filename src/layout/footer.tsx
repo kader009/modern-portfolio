@@ -13,6 +13,15 @@ export default function Footer() {
             Get in touch
           </span>
         </div>
+        <div>
+          <h1 className="mb-4 text-center text-2xl font-bold sm:text-4xl lg:text-5xl">
+            Interested in working together?
+          </h1>
+
+          <p className="mx-auto max-w-3xl text-center text-base font-semibold leading-7 text-background/90 sm:text-lg lg:text-xl">
+            You can also reach me at: {siteMetadata.contactnumber}
+          </p>
+        </div>
         <Link
           href={`mailto:${siteMetadata.email}`}
           target="_blank"
@@ -27,7 +36,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="flex w-full flex-col items-center justify-between gap-8 text-center  md:flex-row md:justify-between lg:mx-auto lg:max-w-7xl">
-        <span className="text-foreground">©{year} Abdul Kader</span>
+        <span className="text-accent">©{year} Abdul Kader Molla</span>
         <div className="flex gap-8">
           <Link
             href={siteMetadata.github}

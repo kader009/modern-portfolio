@@ -56,7 +56,7 @@ export default function LandingHero() {
                 <span className="font-semibold text-accent">HTML</span> and{" "}
                 <span className="font-semibold text-accent">CSS</span>
               </div>
-              <button className="pointer-events-auto mt-6 rounded-lg bg-accent px-5 py-3 font-semibold capitalize text-white transition-all hover:brightness-90">
+              <button className="pointer-events-auto mt-6 rounded-full bg-accent px-5 py-3 font-semibold capitalize text-white transition-all hover:brightness-90">
                 <Link
                   href="https://drive.google.com/file/d/13pXMiyCBqG44jYdNp_PkT4lsLa0awb43/view?usp=sharing"
                   download
