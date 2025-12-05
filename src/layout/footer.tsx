@@ -6,15 +6,15 @@ import Link from "next/link";
 export default function Footer() {
   const year = new Date().getFullYear();
   return (
-    <footer className="flex w-full flex-col items-center gap-20 bg-transparent px-6 py-8 sm:px-14 md:px-20">
-      <div className="mx-auto flex w-full max-w-7xl flex-col gap-8 rounded-2xl bg-accent p-8 text-background sm:p-12 md:gap-12 lg:p-20">
+    <footer className="flex w-full flex-col items-center gap-6 bg-transparent px-6 py-4 sm:px-10 md:px-16">
+      <div className="mx-auto flex w-full max-w-7xl flex-col gap-4 rounded-2xl bg-accent p-4 text-background sm:p-6 md:gap-6 lg:p-10">
         <div className="text-center">
           <span className="inline-block rounded-full bg-background px-3 py-1 text-xs font-semibold uppercase text-accent md:text-sm lg:text-base">
             Get in touch
           </span>
         </div>
         <div>
-          <h1 className="mb-4 text-center text-2xl font-bold sm:text-4xl lg:text-5xl">
+          <h1 className="mb-4 text-center text-2xl font-bold sm:text-3xl lg:text-4xl">
             Interested in working together?
           </h1>
 
@@ -25,7 +25,7 @@ export default function Footer() {
         <Link
           href={`mailto:${siteMetadata.email}`}
           target="_blank"
-          className="mb-6 cursor-pointer text-center text-2xl font-bold underline sm:text-4xl lg:text-6xl"
+          className="mb-2 cursor-pointer text-center text-2xl font-bold underline sm:text-4xl lg:text-6xl"
         >
           <span>kadermollarasel000@</span>
           <br />
@@ -35,7 +35,7 @@ export default function Footer() {
           <ContactButton />
         </div>
       </div>
-      <div className="flex w-full flex-col items-center justify-between gap-8 text-center  md:flex-row md:justify-between lg:mx-auto lg:max-w-7xl">
+      <div className="flex w-full flex-col items-center justify-between gap-4 text-center  md:flex-row md:justify-between lg:mx-auto lg:max-w-7xl">
         <span className="text-accent">©{year} Abdul Kader Molla</span>
         <div className="flex gap-8">
           <Link
