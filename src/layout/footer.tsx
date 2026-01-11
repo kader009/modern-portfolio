@@ -18,7 +18,7 @@ export default function Footer() {
             Interested in working together?
           </h1>
 
-          <p className="mx-auto max-w-3xl text-center text-base font-semibold leading-7 text-background/90 sm:text-lg lg:text-xl">
+          <p className="mx-auto max-w-3xl text-center text-base font-semibold leading-7 sm:text-lg lg:text-xl">
             You can also reach me at: {siteMetadata.contactnumber}
           </p>
         </div>
