@@ -7,7 +7,7 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
       name: "Spiderdevs",
       href: "https://spider-themes.net/",
     },
-    date: "July 2025 - Present",
+    date: "September 2025 - December 2025",
     location: "Bramanbaria",
     description:
       "During my internship, I converted HTML templates to Next.js and built custom Gutenberg blocks for WordPress, gaining hands-on experience with modern front-end frameworks and CMS integration.",
