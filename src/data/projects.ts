@@ -40,16 +40,6 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
       DARK: "/images/projects/foodlane.webp",
     },
   },
-  {
-    index: 3,
-    title: "TaskHub",
-    href: "/projects",
-    tags: ["Reactjs", "Tailwindcss", "Mern", "AntD"],
-    image: {
-      LIGHT: "/images/projects/taskhub.webp",
-      DARK: "/images/projects/taskhub.webp",
-    },
-  },
 ];
 
 export const PROJECTS_CARD: ProjectCardProps[] = [
