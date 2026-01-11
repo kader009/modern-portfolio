@@ -55,7 +55,7 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
 export const PROJECTS_CARD: ProjectCardProps[] = [
   {
     name: "ReviewPortal",
-    favicon: "/images/projects/logos/jsontree.ico",
+    favicon: "/images/projects/logos/trustedge.png",
     imageUrl: ["/images/projects/trustedge.webp"],
     description:
       "Engineered a modern full-stack platform with role-based access (Admin/User) using Next.js, TypeScript, Tailwind CSS, Redux, Express, and MongoDB, featuring product management, user reviews, threaded comments/replies, JWT auth, and admin control panels.",
