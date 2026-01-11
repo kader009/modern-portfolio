@@ -5,6 +5,16 @@ import { siteMetadata } from "@/data/siteMetaData.mjs";
 export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   {
     index: 0,
+    title: "ReviewPortal",
+    href: "/projects",
+    tags: ["Nextjs", "Tailwindcss", "Reactjs", "Redux tookit", "Typescript"],
+    image: {
+      LIGHT: "/images/projects/trustedge.webp",
+      DARK: "/images/projects/trustedge.webp",
+    },
+  },
+  {
+    index: 1,
     title: "Edunest",
     href: "/projects",
     tags: ["Nextjs", "Tailwindcss", "Reactjs", "Redux tookit", "Typescript"],
@@ -14,7 +24,7 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     },
   },
   {
-    index: 1,
+    index: 2,
     title: "FoodLane",
     href: "/projects",
     tags: [
@@ -31,7 +41,7 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     },
   },
   {
-    index: 2,
+    index: 3,
     title: "TaskHub",
     href: "/projects",
     tags: ["Reactjs", "Tailwindcss", "Mern", "AntD"],
@@ -43,6 +53,15 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
 ];
 
 export const PROJECTS_CARD: ProjectCardProps[] = [
+  {
+    name: "ReviewPortal",
+    favicon: "/images/projects/logos/jsontree.ico",
+    imageUrl: ["/images/projects/trustedge.webp"],
+    description:
+      "Engineered a modern full-stack platform with role-based access (Admin/User) using Next.js, TypeScript, Tailwind CSS, Redux, Express, and MongoDB, featuring product management, user reviews, threaded comments/replies, JWT auth, and admin control panels.",
+    sourceCodeHref: "https://github.com/kader009/trustedge",
+    liveWebsiteHref: "https://trustedge.vercel.app/",
+  },
   {
     name: "Edunest",
     favicon: "/images/projects/logos/jsontree.ico",
@@ -60,15 +79,6 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
       "Developed a full-featured restaurant web app where users can browse food items, add them to cart, and place orders with online payment. Implemented authentication, search and filtering, cart system, and secure checkout. Built using React.js, TailwindCSS, custom authentication, and integrated a payment gateway.",
     sourceCodeHref: "https://github.com/kader009/FoodLane",
     liveWebsiteHref: "https://food-lane-zeta.vercel.app/",
-  },
-  {
-    name: "TaskHub",
-    favicon: "/images/projects/logos/manygames.ico",
-    imageUrl: ["/images/projects/taskhub.webp"],
-    description:
-      "Task management website for creating task for your ownself and use when you need update delete and much more.",
-    sourceCodeHref: "https://github.com/kader009/task-manage",
-    liveWebsiteHref: "https://task-manage-ebon.vercel.app/",
   },
   {
     name: "My portfolio",
@@ -96,5 +106,14 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
       "Trendwave is a modern, responsive web application designed to provide users with real-time trend insights and analytics. The platform focuses on delivering a seamless user experience through an interactive and intuitive interface",
     sourceCodeHref: "https://github.com/kader009/trendwave-frontend",
     liveWebsiteHref: "https://trendwave-frontend.vercel.app/",
+  },
+  {
+    name: "TaskHub",
+    favicon: "/images/projects/logos/manygames.ico",
+    imageUrl: ["/images/projects/taskhub.webp"],
+    description:
+      "Task management website for creating task for your ownself and use when you need update delete and much more.",
+    sourceCodeHref: "https://github.com/kader009/task-manage",
+    liveWebsiteHref: "https://task-manage-ebon.vercel.app/",
   },
 ];
