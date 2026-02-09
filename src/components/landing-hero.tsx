@@ -49,12 +49,13 @@ export default function LandingHero() {
                 I am a front end developer specializing in building
                 high-performance, user-focused web applications. Skilled in{" "}
                 <span className="font-semibold text-accent">ReactJS</span>,{" "}
-                <span className="font-semibold text-accent">NextJS</span>, and
+                <span className="font-semibold text-accent">NextJS</span>, also
                 work with{" "}
                 <span className="font-semibold text-accent">JavaScript</span>,{" "}
                 <span className="font-semibold text-accent">TypeScript</span>,{" "}
-                <span className="font-semibold text-accent">HTML</span> and{" "}
-                <span className="font-semibold text-accent">CSS</span>
+                <span className="font-semibold text-accent">Tailwindcss</span>{" "}
+                and{" "}
+                <span className="font-semibold text-accent">Redux Toolkit</span>
               </div>
               <button className="pointer-events-auto mt-6 rounded-full bg-accent px-5 py-3 font-semibold capitalize text-white transition-all hover:brightness-90">
                 <Link
