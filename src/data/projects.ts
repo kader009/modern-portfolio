@@ -62,6 +62,15 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     liveWebsiteHref: "https://study-platform-frontend-azure.vercel.app/",
   },
   {
+    name: "Travelbuddy",
+    favicon: "/images/projects/logos/siteicon.png",
+    imageUrl: ["/images/projects/travelbuddy.png"],
+    description:
+      "Developed a full-featured travel planning web app where users can browse destinations, create itineraries, and manage their trips. Implemented authentication, search and filtering, and secure payment system with ssl commerz. Built using Next.js, Typescript, Redux toolkit, TailwindCSS, custom authentication, and integrated a payment gateway.",
+    sourceCodeHref: "https://github.com/kader009/travel-frontend",
+    liveWebsiteHref: "https://travel-frontend-liart.vercel.app/",
+  },
+  {
     name: "FoodLane",
     favicon: "/images/projects/logos/kanban.ico",
     imageUrl: ["/images/projects/foodlane.webp"],
