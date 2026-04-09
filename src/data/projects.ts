@@ -25,19 +25,12 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   },
   {
     index: 2,
-    title: "FoodLane",
+    title: "Travelbuddy",
     href: "/projects",
-    tags: [
-      "Reactjs",
-      "Tailwindcss",
-      "Javascript",
-      "React-router-dom",
-      "Firebase",
-      "Mern",
-    ],
+    tags: ["Nextjs", "Tailwindcss", "Typescript", "Redux toolkit", "Mern"],
     image: {
-      LIGHT: "/images/projects/foodlane.webp",
-      DARK: "/images/projects/foodlane.webp",
+      LIGHT: "/images/projects/travelbuddy.png",
+      DARK: "/images/projects/travelbuddy.png",
     },
   },
 ];
