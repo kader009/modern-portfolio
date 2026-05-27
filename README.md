@@ -1,4 +1,4 @@
-# Modern Portfolio - V2
+# Modern Portfolio
 
 This portfolio is crafted using [Next.js](https://nextjs.org/)
 
@@ -17,7 +17,6 @@ This portfolio is crafted using [Next.js](https://nextjs.org/)
 - Contact form integration with Nodemailer
 - Smooth animations using Framer Motion
 - SEO optimized (sitemap.xml, robots.txt)
-
 
 ## Setup Nodemailer
 
@@ -42,12 +41,14 @@ This portfolio is crafted using [Next.js](https://nextjs.org/)
 ## Development Setup (If anyone wants to use)
 
 ### Step 1: Clone the repository
-```bash 
+
+```bash
 git clone https://github.com/kader009/modern-portfolio.git
 ```
 
 ### Step 2: Navigate into the project directory
-```bash 
+
+```bash
 cd modern-portfolio
 ```
 
@@ -64,6 +65,7 @@ pnpm/yarn dev
 ```
 
 For npm user
+
 ```bash
 npm run dev
 ```
@@ -71,4 +73,5 @@ npm run dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the portfolio.
 
 ## Live site image
+
 ![My Website Banner](https://i.ibb.co/FLzDtgqz/portfolio.webp)
