@@ -2,7 +2,7 @@ import { type ExperienceShowcaseListItemProps } from "@/components/experience/ex
 
 export const EDUCATION: ExperienceShowcaseListItemProps[] = [
   {
-    title: "Bachelor Of Arts",
+    title: "Bachelor Of Arts (BA)",
     organisation: {
       name: "Bhawal Badre Alam Govt. College",
       href: "https://bbagc.edu.bd/",
@@ -13,7 +13,7 @@ export const EDUCATION: ExperienceShowcaseListItemProps[] = [
       "Relevant courses included Critical Thinking and Logic, Research Methodologies, History of Scientific Ideas, English Composition and Communication, and Philosophical Foundations of Knowledge.",
   },
   {
-    title: "Higher Secondary Education",
+    title: "Higher Secondary Education (HSC)",
     organisation: {
       name: "Momtaz Uddin Business Management College",
       href: "https://www.facebook.com/mbmc.edu.bd",
