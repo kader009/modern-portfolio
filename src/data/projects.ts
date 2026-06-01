@@ -41,7 +41,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     favicon: "/images/projects/logos/trustedge.png",
     imageUrl: ["/images/projects/trustedge.webp"],
     description:
-      "Engineered a modern full-stack platform with role-based access (Admin/User) using Next.js, TypeScript, Tailwind CSS, Redux, Express, and MongoDB, featuring product management, user reviews, threaded comments/replies, JWT auth, and admin control panels.",
+      "Product review platform built with Next.js and TypeScript - product listings, reviews with threaded comments, JWT auth, and admin moderation.",
     sourceCodeHref: "https://github.com/kader009/trustedge",
     liveWebsiteHref: "https://trustedge.vercel.app/",
   },
@@ -50,7 +50,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     favicon: "/images/projects/logos/jsontree.ico",
     imageUrl: ["/images/projects/edunest.webp"],
     description:
-      "Built a role-based study platform (Admin, Tutor, Student) using Next.js, TailwindCSS, and Redux. Included JWT auth, study materials, dashboard, Shadcn UI.",
+      "LMS built with Next.js and TypeScript featuring three roles - Admin, Tutor, Student. Admins manage users/courses, Tutors create content and grade, Students access courses, submit assignments and view dashboards. Uses JWT auth, Redux, and Tailwind CSS.",
     sourceCodeHref: "https://github.com/kader009/study-platform-frontend",
     liveWebsiteHref: "https://study-platform-frontend-azure.vercel.app/",
   },
@@ -59,7 +59,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     favicon: "/images/projects/logos/siteicon.png",
     imageUrl: ["/images/projects/travelbuddy.png"],
     description:
-      "Developed a full-featured travel planning web app where users can browse destinations, create itineraries, and manage their trips. Implemented authentication, search and filtering, and secure payment system with ssl commerz. Built using Next.js, Typescript, Redux toolkit, TailwindCSS, custom authentication, and integrated a payment gateway.",
+      "Travel planning app (Next.js + TypeScript) with destination search, itinerary builder, user auth, and SSLCommerz payment integration.",
     sourceCodeHref: "https://github.com/kader009/travel-frontend",
     liveWebsiteHref: "https://travel-frontend-liart.vercel.app/",
   },
@@ -68,7 +68,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     favicon: "/images/projects/logos/kanban.ico",
     imageUrl: ["/images/projects/foodlane.webp"],
     description:
-      "Developed a full-featured restaurant web app where users can browse food items, add them to cart, and place orders with online payment. Implemented authentication, search and filtering, cart system, and secure checkout. Built using React.js, TailwindCSS, custom authentication, and integrated a payment gateway.",
+      "Restaurant web app with role-based management: admins manage menu items (create/update/delete), customers browse menu, add to cart and place orders. Integrated Stripe for secure payments. Built with React and Tailwind CSS.",
     sourceCodeHref: "https://github.com/kader009/FoodLane",
     liveWebsiteHref: "https://food-lane-zeta.vercel.app/",
   },

@@ -2,15 +2,15 @@ import { type ExperienceShowcaseListItemProps } from "@/components/experience/ex
 
 export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
   {
-    title: "React Developer (Intern)",
+    title: "React Developer",
     organisation: {
       name: "Spiderdevs",
       href: "https://spider-themes.net/",
     },
-    date: "September 2025 - December 2025",
+    date: "September 2025 - April 2026",
     location: "Bramanbaria",
     description:
-      "During my internship, I converted HTML templates to Next.js and built custom Gutenberg blocks for WordPress, gaining hands-on experience with modern front-end frameworks and CMS integration.",
+      "During my work, I converted HTML templates to Next.js and built custom Gutenberg blocks for WordPress, gaining hands-on experience with modern front-end frameworks and CMS integration.",
   },
   {
     title: "Nextjs Developer",
@@ -20,7 +20,30 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
     },
     date: "April - 2025",
     location: "Dhaka",
-    description: "Create Education learning platform with Reactjs, Nextjs",
+    description:
+      "Worked on Edunest LMS (Next.js): implemented Admin/Tutor/Student roles, course dashboards, JWT auth and content management.",
+  },
+  {
+    title: "Full Stack Developer",
+    organisation: {
+      name: "TravelBuddy (Travel website)",
+      href: "https://travel-frontend-liart.vercel.app/",
+    },
+    date: "January - 2026",
+    location: "Remote",
+    description:
+      "Built TravelBuddy (Next.js + TypeScript): auth, search/filters, itinerary builder, and SSLCommerz payments.",
+  },
+  {
+    title: "Nextjs Developer",
+    organisation: {
+      name: "Trustedge (Product view website)",
+      href: "https://trustedge.vercel.app/",
+    },
+    date: "December - 2025",
+    location: "Remote",
+    description:
+      "Built Trustedge frontend (Next.js + TypeScript): product listings, reviews/comments, REST API integration, and performance optimizations.",
   },
   {
     title: "React Developer",
@@ -31,28 +54,6 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
     date: "August - 2024",
     location: "Remote",
     description:
-      "Learned to work work with Rest Api and integrate Payment system.",
-  },
-  {
-    title: "Frontend Developer",
-    organisation: {
-      name: "TaskHub (Task Management site)",
-      href: "https://task-manage-ebon.vercel.app/",
-    },
-    date: "July - 2024",
-    location: "Remote",
-    description:
-      "Task management websit for creating task for ownself and use when ever need.",
-  },
-  {
-    title: "Next.js Developer",
-    organisation: {
-      name: "TrendWave (Ecommerce site)",
-      href: "https://trendwave-frontend.vercel.app/",
-    },
-    date: "June - 2025",
-    location: "Remote",
-    description:
-      "TrendWave is a modern e-commerce platform to explore trending products, search easily, and view key details like price and category.",
+      "Built FoodLane features: menu management, cart and ordering flows, and Stripe payment integration.",
   },
 ];
